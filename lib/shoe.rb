@@ -13,7 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   def initialize(brand)
-    @brand = brand	    @brand = brand
+    @brand = brand	    
     BRANDS << brand unless BRANDS.any? { |b| b == brand }
   end	  end
 end
